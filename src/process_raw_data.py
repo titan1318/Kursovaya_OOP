@@ -4,7 +4,7 @@ import json
 
 def process_vacancies():
     # Открытие и чтение данных из JSON-файла
-    with open('C:/Users/titan/PycharmProjects/Курсовая 4.ООП/data/raw.json', 'r', encoding='utf-8') as file:
+    with open('/raw.json', 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     # Извлекаем список вакансий
